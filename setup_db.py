@@ -15,8 +15,8 @@ def setup_db():
     db.session.commit()
 
     new_user2 = User(public_id=str(uuid.uuid4()), 
-                    name='allen', 
-                    email='s972024@gmail.com',
+                    name='vaughn1', 
+                    email='vaughndevilliers+1@gmail.com',
                     password=hashed_password, 
                     admin=True)
 
